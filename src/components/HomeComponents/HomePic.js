@@ -1,19 +1,20 @@
-import React from 'react'
+import React from 'react';
+import './HomePic.css';
 
 const HomePic = () => {
-
   return (
-
-    <div>
-    <h1>Graeme Scott</h1>
-    <img src="../images/Headshot.png"
-     alt="Graeme Scott"
-      className='img-fluid profile-pic' 
-      />
-    <h3>Full Stack Software Engineer</h3>
+    <div className='container container-style'>
+      <h1 className='name'> Graeme Scott</h1>
+      <div>
+        <img
+          src="./images/Headshot.png"
+          alt="Graeme Scott"
+          className='headshot'
+        />
+      </div>
+      <h3 className='job-title'>Full-Stack Software Engineer</h3>
     </div>
+  );
+};
 
-  )
-}
-
-export default HomePic
+export default HomePic;
