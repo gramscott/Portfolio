@@ -1,9 +1,10 @@
 import React from 'react'
+import HomePic from '../components/HomeComponents/HomePic'
 
 
 const HomeContainer = () => {
   return (
-    <div>HomeContainer</div>
+    <HomePic/>
   )
 }
 
