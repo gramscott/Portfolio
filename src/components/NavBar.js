@@ -3,15 +3,16 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav className='navbar navbar-expand-lg navbar-light bg-light navbar-toggler'>
 
 
-      <div>
-        <ul className='nav'>
+      <div className='container-fluid'>
+        <ul className='nav navbar-light'>
 
           <li>
             <Link to='/' className="nav-link">Home</Link>
           </li>
+
 
           <li className="nav-item">
             <Link to='/about' className="nav-link">About</Link>
