@@ -1,0 +1,19 @@
+.contact-details-container {
+    margin: 10px 0;
+  }
+  
+  
+  .contact-details-container svg {
+    margin-right: 8px;
+    height: 40px;
+  }
+  
+  .contact-details-container a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .contact-details-container a:hover {
+    text-decoration: underline;
+  }
+  
