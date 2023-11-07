@@ -14,8 +14,8 @@ const DownloadResumeButtons = () => {
   ];
 
   return (
-    <div className="download-resume-container col-md-5 p-4 rounded shadow">
-      <h2>Download Resumes</h2>
+    <div className="download-resume-container col-md-5 p-4 rounded shadow left-align">
+      <h2 className='font-weight-bold'>Download Resumes</h2>
       <ul>
         {pdfFiles.map((file, index) => (
           <li key={index}>

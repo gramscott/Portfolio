@@ -4,8 +4,8 @@ import './ContactDetails.css';
 
 const ContactDetails = () => {
   return (
-    <div className="contact-details-container col-md-7 p-4 rounded shadow">
-      <h3 className="mb-4">Contact Details</h3>
+    <div className="contact-details-container col-md-7 p-4 rounded shadow left-align">
+      <h3 className="mb-4 font-weight-bold">Contact Details</h3>
       <ul className="list-unstyled">
         <li className="mb-3">
           <Linkedin size={28} className="mr-2" />
