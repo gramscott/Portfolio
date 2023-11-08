@@ -3,6 +3,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './ProjectCarousel.css'
+import smecoPic from '../../images/carousel-smeco-pic.png'
 
 const ProjectCarousel = () => {
 
@@ -30,7 +31,7 @@ const ProjectCarousel = () => {
   <Slider ref={sliderRef} {...settings}>
     <div className='project-slide'>
 
-      <img src='./images/carousel-smeco-pic.png' alt='pic-1' className='img-fluid pic-1' />
+      <img src={smecoPic} alt='pic-1' className='img-fluid pics' />
       <b>Full-Stack JavaScript Project: smeco</b>
       <p>
         React, JavaScript, VS Code, API, Express.js, Cypress, JSX, Unit-Testing. Group [5 days]
