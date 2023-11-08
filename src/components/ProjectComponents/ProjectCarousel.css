@@ -1,0 +1,91 @@
+.project-slide {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 10px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-slide img {
+    max-width: 100%;
+  }
+  
+  .project-slide b {
+    font-size: 1.2em;
+  }
+  
+  .project-slide p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .project-slide ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .project-slide a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .project-slide a:hover {
+    text-decoration: underline;
+  }
+
+  .project-carousel {
+    position: relative;
+  }
+
+  .carousel-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7); 
+  }
+
+  .pic-1 {
+    width: 800px; 
+    height: 150px; 
+  }
+
+  .pic-2 {
+    width: 800px; 
+    height: 150px; 
+  }
+
+  .pic-3 {
+    width: 500px; 
+    height: 150px; 
+  }
+  
+
+  .button-navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .prev-button,
+  .next-button {
+    background-color: #007BFF;
+    color: white; 
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .prev-button:hover,
+  .next-button:hover {
+    background-color: #0056b3; 
+  }
+
