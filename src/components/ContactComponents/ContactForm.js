@@ -1,46 +1,40 @@
 import React, { useState } from 'react'
+import { Button } from 'react-bootstrap';
 
 const ContactForm = () => {
 
-    const [formState, setFormState] = useState({
-        name: '',
-        email: '',
-        message: ''
-    })
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
 
-    const handleChange = (event) => {
-        setFormState({
-            ...formState,
-            [event.target.id]: event.target.value
-        })
-    };
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        console.log(formState)
-    };
+    const onSubmit = (e: formEvent) => {
+        e.preventDefault();
+        console.log('Data:', name, email, message)
+    }
 
 
   return (
 
     <div>
-    <h3>Contact Me</h3>
-    <form onSubmit ={handleSubmit}>
-        <div className="form-group">
-            <label for="name">Name</label>
-            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name"/>
-        </div>
-        <div className="form-group">
-            <label for="email">Email address</label>
-            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email"/>
-        </div>
+    <h3>Get In Touch!</h3>
+    <form onSubmit={onSubmit}>
+        <input
+        value={name} 
+        onChange={(e) => setName(e.target.value)}
+        type="text"
+         placeholder="Name" />
 
-        <div className="form-group">
-            <label for="message">Message</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Your Message...'></textarea>
-        </div>
+        <input 
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        type="email"
+         placeholder="email" />
 
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <textarea value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        type="message" 
+        placeholder="message" />
+        <Button type="submit">Submit</Button>
     </form>
     </div>
   )
