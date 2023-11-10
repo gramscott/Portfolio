@@ -2,3 +2,10 @@
     text-align: left;
   }
   
+
+.profile-headers {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: blueviolet;
+}

@@ -4,13 +4,13 @@ import './Profile.css';
 const Profile = () => {
   return (
     <div className="col-md-7 bio-container p-4 rounded shadow">
-      <h2 className="mb-4 left-align">About Me</h2>
+      <h2 className="mb-4 left-align profile-headers">About Me</h2>
       <p className="lead left-align">
         Ambitious Junior Developer with a unique background in screenwriting, acting, retail, and hospitality. Recently graduated from a 16-week immersive Software Engineer Bootcamp at CodeClan. Committed to achieving strong results and bringing a fresh perspective to the field of software engineering.
       </p>
       <hr />
       <div className="mt-4">
-        <h3 className='left-align'>Education</h3>
+        <h3 className='left-align profile-headers'>Education</h3>
         <ul className='mt-4'>
           <li className='mb-3 left-align'>
             <strong>CodeClan – Glasgow – 2023</strong>
