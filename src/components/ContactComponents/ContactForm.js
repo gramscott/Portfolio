@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { FormEvent, useState } from 'react'
+
 import { Button } from 'react-bootstrap';
 
 const ContactForm = () => {
@@ -7,10 +8,10 @@ const ContactForm = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
-    const onSubmit = (e: formEvent) => {
+    const onSubmit = async(e: FormEvent) => {
         e.preventDefault();
         console.log('Data:', name, email, message)
-    }
+    } 
 
 
   return (
