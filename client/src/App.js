@@ -2,12 +2,14 @@ import './App.css';
 import NavBar from './components/NavBar';
 import HomeContainer from './containers/HomeContainer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react';
 import AboutContainer from './containers/AboutContainer';
 import ProjectContainer from './containers/ProjectContainer';
 import ContactContainer from './containers/ContactContainer';
 
 
 function App() {
+
   return (
     <div className="App">
     <Router>
@@ -18,7 +20,7 @@ function App() {
       <Route path="/projects" element={<ProjectContainer/>}/>
       <Route path="/contact" element={<ContactContainer/>}/>
     </Routes>
-    </Router>
+    </Router> 
     </div>
   );
 }
