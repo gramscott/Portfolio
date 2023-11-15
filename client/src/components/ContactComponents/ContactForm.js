@@ -1,42 +1,35 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 import { Button } from 'react-bootstrap';
 
 const ContactForm = () => {
-
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-
-    const onSubmit = () => {
-        e.preventDefault();
-        console.log('Data:', name, email, message)
-    } 
-
-    
 
 
   return (
 
     <div>
     <h3>Get In Touch!</h3>
-    <form onSubmit={onSubmit}>
+    <form action='https://api.web3forms.com/submit' method="POST">
+    <input type='hidden' name='access_key' value="099dd778-2dab-49cf-b4cc-9784c27b5566" />
         <input
-        value={name} 
-        onChange={(e) => setName(e.target.value)}
         type="text"
-         placeholder="Name" />
+        name='name'
+         placeholder="Name" 
+         required/>
 
         <input 
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
+        name='email'
         type="email"
-         placeholder="email" />
+         placeholder="email" 
+         required
+         />
 
-        <textarea value={message}
-        onChange={(e) => setMessage(e.target.value)}
-        type="message" 
-        placeholder="message" />
+        <textarea 
+        name="message" 
+        type="message"
+        placeholder="message"
+        required
+         />
         <Button type="submit">Submit</Button>
     </form>
     </div>
