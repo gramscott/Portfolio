@@ -4,13 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
-.ContactForm.js
 
 # testing
 /coverage
 
 # production
 /build
+/src/components/ContactComponents/ContactForm.js
+
 
 # misc
 .DS_Store
