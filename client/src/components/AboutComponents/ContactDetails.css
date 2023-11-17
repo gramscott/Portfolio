@@ -1,25 +1,29 @@
-.contact-details-container {
-    margin: 10px 0;
-  }
-  
-  
-  .contact-details-container svg {
-    margin-right: 8px;
-    height: 40px;
-  }
-  
-  .contact-details-container a {
-    text-decoration: none;
-    color: #007bff;
-  }
-  
-  .contact-details-container a:hover {
-    text-decoration: underline;
-  }
+.contact-headers {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
 
-  .contact-headers {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-  
+.contact-details-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-details-container li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-details-container a {
+  text-decoration: none;
+  color: #007bff;
+}

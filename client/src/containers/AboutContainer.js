@@ -9,10 +9,10 @@ const AboutContainer = () => {
 
     <div className="container">
       <div className="row">
-        <Profile/>
-        <EducationPic />
-        <ContactDetails/>
-        <DownloadResumeButtons/>
+      <Profile/>
+      <EducationPic />
+      <ContactDetails/> 
+      <DownloadResumeButtons/> 
       </div>
       <br />
     </div>

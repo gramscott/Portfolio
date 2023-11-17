@@ -1,42 +1,41 @@
 
 .download-resume-container h2 {
-    font-size: 1.7rem;
-    margin-bottom: 30px;
-  }
+  font-size: 1.7rem;
+  margin-bottom: 30px;
+}
 
-  .download-header {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
+.download-header {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.download-resume-container ul {
+  list-style: none;
   
-  .download-resume-container ul {
-    list-style: none;
-    
-  }
-  
-  .download-resume-container li {
-    margin-bottom: 10px;
-    height: 70px;
-  }
-  
-  .download-resume-container a {
-    text-decoration: none;
-  }
-  
-  .download-resume-container a.btn {
-    font-size: 0.9rem;
-    padding: 10px 20px;
-  }
-  
+}
+
+.download-resume-container li {
+  margin-bottom: 10px;
+  height: 70px;
+}
+
+.download-resume-container a {
+  text-decoration: none;
+}
+
+.download-resume-container a.btn {
+  font-size: 0.9rem;
+  padding: 10px 20px;
+}
+
 
 .btn-3d-square {
-  margin: 10px 2px;
-  background: linear-gradient(145deg, #007BFF, #0056b3);
-  transform: perspective(1px) translateZ(0);
+margin: 10px 2px;
+background: linear-gradient(145deg, #007BFF, #0056b3);
+transform: perspective(1px) translateZ(0);
 }
 
 .btn-3d-square:hover {
-  background: linear-gradient(145deg, #0056b3, #007BFF);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+background: linear-gradient(145deg, #0056b3, #007BFF);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
