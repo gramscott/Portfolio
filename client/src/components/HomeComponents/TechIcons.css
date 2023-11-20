@@ -9,7 +9,7 @@
 .icons {
     height: 50px;
     width: 5%;
-    margin: 10px; 
+    margin: 10px; /* Add some margin between icons for better spacing */
 }
 
 .icons:hover {
@@ -19,13 +19,13 @@
 
 @media (max-width: 768px) {
     .icons {
-        width: 10%;
+        width: 10%; /* Adjust the width for smaller screens */
     }
 }
 
 @media (max-width: 480px) {
     .icons {
-        width: 15%; 
+        width: 15%; /* Further adjust the width for even smaller screens */
     }
 }
 
