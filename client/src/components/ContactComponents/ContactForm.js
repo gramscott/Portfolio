@@ -10,7 +10,6 @@ const ContactForm = () => {
 
       <Form  action='https://api.web3forms.com/submit' method="POST" className='form rounded shadow p-4 mb-5'>
         <input type='hidden' name='access_key' value="099dd778-2dab-49cf-b4cc-9784c27b5566" />
-        <input type='hidden' name='redirect' value='/thank-you' />
         <input type='hidden' name='subject' value='New Submission from Portfolio Website' />
 
 

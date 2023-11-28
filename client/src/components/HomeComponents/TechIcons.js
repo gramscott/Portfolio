@@ -13,8 +13,8 @@ const TechIcons = () => {
     <FontAwesomeIcon icon={faReact} className='icons'/>
     <FontAwesomeIcon icon={faJava} className='icons'/>
     <FontAwesomeIcon icon={faPython} className='icons'/>
-    <FontAwesomeIcon icon={faGit} className='icons'/>
-    <FontAwesomeIcon icon ={faGithub} className='icons'/>
+    {/* <FontAwesomeIcon icon={faGit} className='icons'/> */}
+    {/* <FontAwesomeIcon icon ={faGithub} className='icons'/> */}
     <FontAwesomeIcon icon={faBootstrap} className='icons'/>
     <FontAwesomeIcon icon={faHtml5} className='icons'/>
     <FontAwesomeIcon icon={faCss3} className='icons'/>
