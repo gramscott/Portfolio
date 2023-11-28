@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e72a641c.css",
+    "main.css": "/portfolio/static/css/main.dc7a3538.css",
     "main.js": "/portfolio/static/js/main.e8d7577d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/carousel-empowerme-pic.png": "/portfolio/static/media/carousel-empowerme-pic.f01b657423809ca4f07b.png",
@@ -18,12 +18,12 @@
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.e72a641c.css.map": "/portfolio/static/css/main.e72a641c.css.map",
+    "main.dc7a3538.css.map": "/portfolio/static/css/main.dc7a3538.css.map",
     "main.e8d7577d.js.map": "/portfolio/static/js/main.e8d7577d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e72a641c.css",
+    "static/css/main.dc7a3538.css",
     "static/js/main.e8d7577d.js"
   ]
 }
