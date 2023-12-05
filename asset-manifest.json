@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.45157662.css",
-    "main.js": "/static/js/main.4e581408.js",
+    "main.js": "/static/js/main.983624f4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/carousel-empowerme-pic.png": "/static/media/carousel-empowerme-pic.f01b657423809ca4f07b.png",
     "static/media/Headshot.png": "/static/media/Headshot.2d7eab81437285e4cc35.png",
@@ -19,11 +19,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.45157662.css.map": "/static/css/main.45157662.css.map",
-    "main.4e581408.js.map": "/static/js/main.4e581408.js.map",
+    "main.983624f4.js.map": "/static/js/main.983624f4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45157662.css",
-    "static/js/main.4e581408.js"
+    "static/js/main.983624f4.js"
   ]
 }
