@@ -21,7 +21,9 @@ const ContactDetails = () => {
         </li>
         <li className="mb-3">
           <Envelope size={28} className="mr-2" />
+          <a href="mailto:graemesco96@gmail.com ">
           graemesco96@gmail.com
+          </a>
         </li>
         <li>
           <Phone size={28} className="mr-2" />
