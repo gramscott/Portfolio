@@ -7,6 +7,7 @@ import './ProjectCarousel.css';
 import smecoPic from '../../images/carousel-smeco-pic.png';
 import empowerMePic from '../../images/carousel-empowerme-pic.png';
 import bonniePic from '../../images/carousel-bonnie-pic.jpg';
+import jmdPic from '../../images/carousel-jmd-pic.png';
 
 
 const ProjectCarousel = () => {
@@ -32,6 +33,21 @@ const ProjectCarousel = () => {
   return (
     <div className='project-carousel'>
        <Slider {...settings} ref={sliderRef}>
+       <div className="project-slide">
+       <img src={jmdPic} alt="pic-1" className="img-fluid pic-1" />
+        <b>Front-End JavaScript Project: JMD Alloys</b>
+        <p>Technologies: React, JavaScript, VS Code, Bootstrap, CSS, Node.js. </p>
+        <ul>
+          <li>Independently created the website for an alloy refurbishment service, JMD Alloys.</li>
+          <li>Engaged in detailed consultations with the business owner to define the website’s strategic vision, contributing creative ideas and transforming the concept into a dynamic online presence.</li>
+          <li>Implemented responsive web design and user-friendly interfaces while ensuring cross-browser compatibility and mobile responsiveness.</li>
+          <a href="https://gramscott.github.io/jmdalloy/">
+            <i className="fa fa-github"></i> GitHub Repository
+          </a>
+        </ul>
+      </div>
+
+
        <div className="project-slide">
         <img src={smecoPic} alt="pic-1" className="img-fluid pic-1" />
         <b>Full-Stack JavaScript Project: Smeco</b>
