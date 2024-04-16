@@ -38,7 +38,7 @@ const ProjectCarousel = () => {
         <b>Front-End JavaScript Project: JMD Alloys</b>
         <p>Technologies: React, JavaScript, VS Code, Bootstrap, CSS, Node.js. </p>
         <ul>
-          <li>Independently created the website for an alloy refurbishment service, JMD Alloys.</li>
+          <li>Independently created and hosted the website for an alloy refurbishment service, JMD Alloys.</li>
           <li>Engaged in detailed consultations with the business owner to define the website’s strategic vision, contributing creative ideas and transforming the concept into a dynamic online presence.</li>
           <li>Implemented responsive web design and user-friendly interfaces while ensuring cross-browser compatibility and mobile responsiveness.</li>
           <a href="https://jmdalloys.co.uk/">
