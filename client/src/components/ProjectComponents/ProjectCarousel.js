@@ -41,8 +41,8 @@ const ProjectCarousel = () => {
           <li>Independently created the website for an alloy refurbishment service, JMD Alloys.</li>
           <li>Engaged in detailed consultations with the business owner to define the website’s strategic vision, contributing creative ideas and transforming the concept into a dynamic online presence.</li>
           <li>Implemented responsive web design and user-friendly interfaces while ensuring cross-browser compatibility and mobile responsiveness.</li>
-          <a href="https://gramscott.github.io/jmdalloy/">
-            <i className="fa fa-github"></i> GitHub Repository
+          <a href="https://jmdalloys.co.uk/">
+            <i className="fa fa-google"></i> Website Link
           </a>
         </ul>
       </div>
