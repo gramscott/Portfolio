@@ -44,6 +44,11 @@ const ProjectCarousel = () => {
           <a href="https://jmdalloys.co.uk/">
             <i className="fa fa-google"></i> Website Link
           </a>
+          <br />
+          <a href='https://github.com/gramscott/jmdalloy'>
+            <i className="fa fa-github"></i> GitHub Repository
+          </a>
+        
         </ul>
       </div>
 
@@ -51,7 +56,7 @@ const ProjectCarousel = () => {
        <div className="project-slide">
         <img src={smecoPic} alt="pic-1" className="img-fluid pic-1" />
         <b>Full-Stack JavaScript Project: Smeco</b>
-        <p>React, JavaScript, VS Code, API, Express.js, Cypress, JSX, Unit-Testing. Group [5 days]</p>
+        <p>Technologies: React, JavaScript, VS Code, API, Express.js, Cypress, JSX, Unit-Testing. Group [5 days]</p>
         <ul>
           <li>Collaborated to raise awareness about carbon footprints and provide users with tips to reduce their environmental impact.</li>
           <li>Implemented features such as a multiple-choice quiz and a community page for users to collect tips and engage with like-minded individuals.</li>
@@ -65,7 +70,7 @@ const ProjectCarousel = () => {
       <div className="project-slide">
         <img src={empowerMePic} alt="pic-2" className="img-fluid pic-2" />
         <b>Full-Stack Java Project: eMpowerMe</b>
-        <p>Java, IntelliJ IDEA, VS Code, React, Git, GitHub, Spring, CSS, JavaScript, Express, RESTful API’s, JSX, MongoDB, MYSQL. Pair [13 days]</p>
+        <p>Technologies: Java, IntelliJ IDEA, VS Code, React, Git, GitHub, Spring, CSS, JavaScript, Express, RESTful API’s, JSX, MongoDB, MYSQL. Pair [13 days]</p>
         <ul>
           <li>Collaborated to create a personalized self-help affirmation app where users could customize their positive affirmations and establish a safe space.</li>
           <li>Created the Java backend and successfully connected the React frontend through RESTful routes.</li>
@@ -79,7 +84,7 @@ const ProjectCarousel = () => {
       <div className="project-slide">
         <img src={bonniePic} alt="pic-3" className="img-fluid pic-3" />
         <b>Full-Stack Python Project: My Bonnie Scotland</b>
-        <p>Python, HTML, CSS, SQL, Unit Testing, VS Code. Solo [5 days]</p>
+        <p>Technologies: Python, HTML, CSS, SQL, Unit Testing, VS Code. Solo [5 days]</p>
         <ul>
           <li>Created a hypothetical CRUD app</li>
           <li>“Filmmakers” can pencil in the filming sets they have worked on and the ones they would like to work on.</li>

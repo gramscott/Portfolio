@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Github, Envelope, Phone } from 'react-bootstrap-icons';
+import { Linkedin, Github, Envelope } from 'react-bootstrap-icons';
 import './ContactDetails.css';
 
 const ContactDetails = () => {
@@ -24,10 +24,6 @@ const ContactDetails = () => {
           <a href="mailto:graemesco96@gmail.com ">
           graemesco96@gmail.com
           </a>
-        </li>
-        <li>
-          <Phone size={28} className="mr-2" />
-          +447867865514
         </li>
       </ul>
     </div>
