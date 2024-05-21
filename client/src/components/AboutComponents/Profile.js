@@ -6,8 +6,7 @@ const Profile = () => {
     <div className="col-md-7 bio-container p-4 rounded shadow">
       <h2 className="mb-4 left-align profile-headers">About Me</h2>
       <p className="lead left-align">
-        Ambitious Junior Developer with a unique background in screenwriting, acting, retail, and hospitality. Recently graduated from a 16-week immersive Software Engineer Bootcamp at CodeClan. Committed to achieving strong results and bringing a fresh perspective to the field of software engineering.
-      </p>
+      Enthusiastic and creative software developer with an extensive educational background in software engineering, including a Master's in Creative Media Practice and a Bachelor of Arts (Hons) in Drama. A graduate of CodeClan’s rigorous 16-week intensive program, equipped with a diverse skill set across multiple programming languages and development frameworks. Demonstrated ability to deliver innovative digital solutions with a strong commitment to crafting responsive and user-centric applications. Eager to contribute to an evolving tech company.      </p>
       <hr />
       <div className="mt-4">
         <h3 className='left-align profile-headers'>Education</h3>
