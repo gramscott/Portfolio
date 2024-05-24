@@ -4,8 +4,8 @@ import './DownloadResumeButtons.css';
 const DownloadResumeButtons = () => {
   const pdfFiles = [
     {
-      name: 'Software-Development-CV-04-24.pdf',
-      path: 'cvs/Software-Development-CV-04-24.pdf',
+      name: 'Software-Development-CV-05-24.pdf',
+      path: 'cvs/Software-Development-CV-05-24.pdf',
     },
     {
       name: 'Graeme-Scott-Java-CV.pdf',
